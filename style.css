@@ -12,7 +12,7 @@ html,body {
 }
 
 #info {
-    padding-top: 2%;
+    padding-top: 1%;
     padding-left: 0.5%;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: normal;
@@ -23,6 +23,19 @@ html,body {
         -ms-animation: fadein 4s; /* Internet Explorer */
          -o-animation: fadein 4s; /* Opera < 12.1 */
             animation: fadein 4s;
+}
+
+h2 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+     -ms-animation: fadein 4s; /* Internet Explorer */
+      -o-animation: fadein 4s; /* Opera < 12.1 */
+         animation: fadein 4s;
+
+    padding-left: 0.5%;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-size: 100%;
 }
 
 @keyframes fadein {
