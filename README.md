@@ -1,2 +1,2 @@
-# skulpt
+# Skulpt
 In-browser implementation of Python for workshop purposes.
